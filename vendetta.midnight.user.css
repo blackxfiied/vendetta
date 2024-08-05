@@ -47,7 +47,7 @@ blackxfiied • refact0r | customize here */
 	--accent-1: #5865f2; /* hsl(0, 25%, 65%); */ /* links */
 	--accent-2: #ed4245; /* hsl(0, 43%, 67%); */ /* general unread/mention elements */
 	--accent-3: #5865f2; /* hsl(0, 43%, 67%); */ /* accent buttons */
-	--accent-4: rgba(0, 0, 0, 0.1);; /* hsl(0, 37%, 60%); */ /* accent buttons when hovered */
+	--accent-4: var(--bg-4); /* hsl(0, 37%, 60%); */ /* accent buttons when hovered */
 	--accent-5: #5865f2; /* hsl(0, 31%, 53%); */ /* accent buttons when clicked */
 	--mention: hsla(39.89, 78.17%, 55.1%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(39.89, 78.17%, 55.1%, 0.2); /* mentions & mention messages when hovered */
