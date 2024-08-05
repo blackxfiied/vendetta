@@ -12,7 +12,14 @@
 ==/UserStyle== */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
-@import url('https://raw.githubusercontent.com/blackxfiied/vendetta/master/vendetta.midnight.css');
+
+/*
+imports w/ correct Content-Type headers for betterdiscord
+dev: https://githubraw.com/blackxfiied/vendetta/master/vendetta.midnight.css
+prod: https://cdn.githubraw.com/blackxfiied/vendetta/master/vendetta.midnight.css
+*/
+@import url('https://cdn.githubraw.com/blackxfiied/vendetta/master/vendetta.midnight.css');
+
 
 /* addons */
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
